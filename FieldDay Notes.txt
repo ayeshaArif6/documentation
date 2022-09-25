@@ -1,0 +1,74 @@
+
+BATEMAN:
+
+AKIA3YFXSREYEG5AHXVP 
+
+yWa3/NuJJmDH1Sg4LWJSJ3L4ULh9iq76geEiD64C
+
+https://h6kyuzeorf.execute-api.us-east-2.amazonaws.com/dev
+
+us-east-2
+
+Bucket Name: pwadeployment
+
+
+
+https://gitlab.com/fieldday/frontend/fieldday-frontend
+
+
+
+Dr. Bateman's Production Version on her AWS:
+
+PWA: http://pwadeployment.s3-website.us-east-2.amazonaws.com/
+
+WebUI: http://pwawebuideployment.s3-website.us-east-2.amazonaws.com/
+
+
+
+Dev environ
+
+API
+
+https://h6kyuzeorf.execute-api.us-east-2.amazonaws.com/dev
+
+
+
+
+
+The username/password for the PWA and WebUI is tech/tech 
+
+Username:tech
+
+Password:tech
+
+
+
+
+
+Deployment 
+
+
+
+```$ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+
+$ sudo installer -pkg AWSCLIV2.pkg -target /```
+
+
+
+```BATEMAN:
+
+AKIA3YFXSREYEG5AHXVP 
+
+yWa3/NuJJmDH1Sg4LWJSJ3L4ULh9iq76geEiD64C
+
+https://uljllddgme.execute-api.us-east-2.amazonaws.com/dev/
+
+us-east-2
+
+Bucket Name: pwadeployment
+
+```
+
+
+
+```aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME```
