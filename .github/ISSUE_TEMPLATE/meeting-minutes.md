@@ -1,7 +1,7 @@
 ---
 name: Meeting Minutes
 about: Create meeting minutes
-title: "[Sponsor Meeting Minutes]"
+title: Sponsor Meeting Minutes
 labels: ''
 assignees: ''
 
