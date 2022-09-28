@@ -1,0 +1,48 @@
+# Notes
+
+- Improvements to make:
+  - Input validation (do this upon keyup, not when next is pressed?)
+  - Data collection time is not correct
+  - Overall quality of life improvements
+
+- Other notes
+  - Carlos team app is the live version
+  - Carlos team has the data for the database
+  - Contact Carlos for technical stuff
+  - Need to have a demo quickly to start iterating on it
+  - prototypes
+  - can we use mockups in figma to iterate on UI prototypes?
+  - Won’t need to use the app until the spring
+  - Mobile app is taking the place of the data sheets
+  - Data entry order is important in reducing errors
+  - Capture, Mark, Recapture - keep track of population growth, trends, wet vs dry years, climate change implications, etc.
+  - She might want us to just refine the existing app
+  - Virgin River is inactive, 6 years of data that can be not used
+  - Gateway is infrequently used (not in the summer)
+  - San Pedro has 3 years of data (holding onto it waiting for something to happen)
+    - these are different projects, but the last team called them locations
+  - They process the data manually
+  - One potential feature is automating and creating trends
+  - Right now, the time of data collection is creating when the phone connects to the internet, not at time of data entry 
+  - Array = bunch of traps
+  - We need to implement form validation
+  - Running totals (session entry counts) is important for telling the team if a species has been counted yet
+  - Species code list can be added to in the web ui
+  - Toe clip code is for keeping track of if the animal has been counted already, they clip the lizards toe, it doesn’t grow back
+  - recapture history is important
+  - SVL should be 1 decimal place
+  - VTl should be an integer
+  - OTL should be <= VTL
+  - Verify page is very important (QA QC)
+  - Every toe clip code is unique to each animal in the species in that location (unique key constraint is toe clip code, species, and location together)
+  - need to be able to rename species names in the web ui (can do with 1 mutation) because they change periodically
+  - Different species collect different kinds of the data, so the input pages will be different
+  - End session should be a button, add verification to make sure they really want to end the session (have you counted all your critters yet?)
+  - Unsync history should have list of sessions to add to previous data that day (maybe add edit functionality to only the prof user data)
+  - location + site + array is 1 session
+  - session data is editable from web ui only
+  - keeping phone entry point and web ui separate 
+  - make it work best with bright sunlight out in the desert 
+  - things to be improved
+  - recapture column should be T or F instead of true/false
+  - merge button for merging multiple sessions together
