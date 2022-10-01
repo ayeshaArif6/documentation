@@ -18,6 +18,7 @@
   - When each session is complete, the time of session is set to the time it is uploaded to the cloud, not the actual time it was completed
   - Quality of life improvements
     - SVL should be 1 decimal place
+      - rounded to nearest 0.5g so only .0 and .5 should be permitted
     - VTL should be an integer
     - OTL should be <= VTL
     - Ability to edit/add to previous sessions in the same day (only same day)
@@ -31,6 +32,11 @@
   - Project: a location where the team collects data, contains multiple arrays 
   - Session: unique to 1 location, 1 site, and 1 array
   - Toe Clip Code: how the team records wildlife
+    - Format is `/([A-D][1-5])+/` where `[A-D]` = FootId and `[1-5]` = ToeId
+    - unique per species-location combination
+  - Species Code: abbreviation based on scientific name
+    - unique per animal class (amphibian, lizard, snake, ...)
+  - Sex should be M/F/U(nknown), never blank
 - Possible functionalities to include are various forms of data aggregation and graph building in the web UI to eliminate doing it by hand
 
 ## Action Item List
