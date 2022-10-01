@@ -47,7 +47,8 @@
 
 | **Action Item**                                              | **Owner(s)**             | **Due Date**                    |
 | ------------------------------------------------------------ | ------------------------ | ------------------------------- |
-| Retrieve current working app from previous development team  | Current development team | Before the end of the semester  |
+| Inquire about the purpose of the Recapture checkbox if Toe Clip Code is available to identify recaptured animals automatically | Development team | Next sponsor meeting |
+| Retrieve current working app from previous development team  | Development team | Before the end of the semester  |
 | Find out if the current version of the app can be swapped with a newer backend implementation | Development team         | Before the end of the semester  |
 | Develop an initial prototype of the updated application for feedback |  Development team | By the start of next semester |
 | Incorporate the improvements given by Dr. Bateman into the next iteration of the application | Development team         | Before the end of next semester |
