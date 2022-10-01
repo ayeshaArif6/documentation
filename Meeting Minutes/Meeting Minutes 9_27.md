@@ -13,6 +13,7 @@
 
 ## Topics Covered
 
+- Dr. Bateman explained the purpose of the app: to assist with the Capture-Mark-Recapture method of estimating wildlife populations. This data can then be used to perform ecological modeling and help researchers determine how biodiversity is impacted by human actions.
 - Dr. Bateman specified several features that needed improvement in the current version of the app, including but not limited to:
   - Input validation taking action on each input event instead of on form submit
   - When each session is complete, the time of session is set to the time it is uploaded to the cloud, not the actual time it was completed
@@ -36,6 +37,9 @@
     - unique per species-location combination
   - Species Code: abbreviation based on scientific name
     - unique per animal class (amphibian, lizard, snake, ...)
+  - SVL (snout-to-vent length): body length of a lizard, excluding the tail
+  - VTL (vent-to-tail length): length of the tail only
+  - OTL (original tail length): length of the original tail only, excluding any portion that has been lost and regenerated
   - Sex should be M/F/U(nknown), never blank
 - Possible functionalities to include are various forms of data aggregation and graph building in the web UI to eliminate doing it by hand
 
@@ -45,6 +49,7 @@
 | ------------------------------------------------------------ | ------------------------ | ------------------------------- |
 | Retrieve current working app from previous development team  | Current development team | Before the end of the semester  |
 | Find out if the current version of the app can be swapped with a newer backend implementation | Development team         | Before the end of the semester  |
+| Develop an initial prototype of the updated application for feedback |  Development team | By the start of next semester |
 | Incorporate the improvements given by Dr. Bateman into the next iteration of the application | Development team         | Before the end of next semester |
 
 ## Date / Time Next Meeting
