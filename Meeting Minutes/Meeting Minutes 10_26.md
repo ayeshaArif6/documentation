@@ -5,6 +5,7 @@
 
 ## Attendees
 - Dr. Bateman 
+- Carlo Pelosi
 - Jack Norman
 - Zachary Jacobson
 - Ian Skelskey
