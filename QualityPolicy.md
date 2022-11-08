@@ -159,8 +159,8 @@ Formatting will also change as needed as the needs of the project evolve over ti
 By checking the box below that corresponds with my name, I am agreeing to adhere to all policies, standards,
 and practices specified in this document.
 
--   [x] Jack Norman
--   [x] Isaiah Lathem
--   [x] Denis Grassl
--   [x] Zachary Jacobson
+-   [ ] Jack Norman
+-   [ ] Isaiah Lathem
+-   [ ] Denis Grassl
+-   [ ] Zachary Jacobson
 -   [x] Ian Skelskey
