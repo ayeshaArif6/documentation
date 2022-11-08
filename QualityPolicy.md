@@ -132,9 +132,9 @@ These steps are replicated in the repository [wiki](https://github.com/Field-Day
 ### Practices
 
 -   Each team member will commit to a US or TS branch at least once every 3 days.
--   Each team member will participate in pair programming at least once per sprint on an as needed basis.
+-   Each team member will participate in pair programming at least once per sprint.
     -   Pair programming should last between 30 minutes and 1 hour.
-    -   Two team members write code together live.
+    -   Two team members write code together live or discuss code related issues.
     -   Half of the time will be spent on each developer's tasks.
 
 ### Formatting
