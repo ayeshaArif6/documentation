@@ -160,7 +160,7 @@ By checking the box below that corresponds with my name, I am agreeing to adhere
 and practices specified in this document.
 
 -   [x] Jack Norman
--   [ ] Isaiah Lathem
+-   [x] Isaiah Lathem
 -   [x] Denis Grassl
 -   [ ] Zachary Jacobson
 -   [x] Ian Skelskey
