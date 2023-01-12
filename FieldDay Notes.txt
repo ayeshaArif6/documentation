@@ -33,8 +33,6 @@ https://h6kyuzeorf.execute-api.us-east-2.amazonaws.com/dev
 
 
 
-
-
 The username/password for the PWA and WebUI is tech/tech 
 
 Username:tech
@@ -72,3 +70,5 @@ Bucket Name: pwadeployment
 
 
 ```aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME```
+
+Team dev Firebase login information is posted in the private Slack channel.  Be sure to load all fields from your test application.
