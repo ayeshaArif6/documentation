@@ -1,4 +1,11 @@
 # Quick Start Manual
+Add documentation links
+Technology: 
+Vite with Tailwind
+React
+Firebase/Firestore
+
+
 
 
 
