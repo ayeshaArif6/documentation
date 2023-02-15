@@ -1,4 +1,12 @@
 # Quick Start Manual
+Add documentation links
+Technology:  
+Tailwind with Vite - https://tailwindcss.com/docs/guides/vite  
+React - https://reactjs.org/docs/getting-started.html  
+Firebase - https://firebase.google.com/docs  
+Firestore - https://cloud.google.com/firestore/docs  
+
+
 
 
 
