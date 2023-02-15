@@ -13,6 +13,7 @@ Firestore - https://cloud.google.com/firestore/docs
 ## Progressive Web Application PWA
 This is the downloadable application that works offline out in the field
 ### Installation
+
 ### Tips
 
 ## Web UI
