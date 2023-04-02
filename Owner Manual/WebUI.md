@@ -14,7 +14,9 @@ The majority of the code is uses React and is distributed among JSX components. 
 
 ## Resources
 [Official React Documentation](https://react.dev/)
+
 [W3Schools JavaScript general tutorial](https://www.w3schools.com/js/)
+
 [W3Schools React tutorial](https://www.w3schools.com/REACT/DEFAULT.ASP)
 
 
@@ -22,16 +24,29 @@ The majority of the code is uses React and is distributed among JSX components. 
 The Web UI's [html document](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/index.html) will rarely need to be modified.  It does little more than load the [main JSX file](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/main.jsx), which in turn is only meant to load every component.
 
 [Button](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [Card](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [DataTable](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [Dropdown](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [LogoutButton](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [Modal](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [Notifier](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [Pagination](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [TabBar](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [TableEntry](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [TableTools](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [TextRevealIconButton](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [TopNav](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+
 [UserImage](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
