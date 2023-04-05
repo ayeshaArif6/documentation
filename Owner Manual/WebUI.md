@@ -23,30 +23,38 @@ The majority of the code is uses React and is distributed among JSX components. 
 ## Individual components
 The Web UI's [html document](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/index.html) will rarely need to be modified.  It does little more than load the [main JSX file](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/main.jsx), which in turn is only meant to load every component.
 
-[Button](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[Button](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - General purpose button
 
-[Card](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[Card](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Card.jsx) - Informational card
 
-[DataTable](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[ColumnSelector](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/ColumnSelector.jsx) - Subcomponent of ColumnSelectorButton
 
-[Dropdown](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[ColumnSelectorButton](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/ColumnSelectorButton.jsx) - Column UI button used by DataManager tool
 
-[LogoutButton](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[Dropdown](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Dropdown.jsx) - General purpose dropdown menu
 
-[Modal](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[InputField](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/InputField.jsx) - General purpose input field
 
-[Notifier](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[LogoutButton](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/LogoutButton.jsx) - Logs the user out
 
-[Pagination](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[Modal](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Modal.jsx) - Used for building forms
 
-[TabBar](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[Notifier](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Notifier.jsx) - Displays toasts, used directly by App.jsx
 
-[TableEntry](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[Pagination](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Pagination.jsx) - Divides results into pages
 
-[TableTools](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[Tab](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Tab.jsx) - Individual navigation tab used by TabBar
 
-[TextRevealIconButton](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[TabBar](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/TabBar.jsx) - Contains all navigation tabs
 
-[TopNav](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[Table](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Table.jsx) - Spreadsheet displayed to user
 
-[UserImage](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/Button.jsx) - 
+[TableEntry](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/TableEntry.jsx) - Logic for individual entry in table
+
+[TableHeading](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/TableHeading.jsx) - Top row of table
+
+[TableTools](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/TableTools.jsx) - TablePage component, used for utility buttons
+
+[TopNav](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/TopNav.jsx) - Navigation tools at top of page
+
+[UserImage](https://github.com/Field-Day-2022/field-day-2022-webUI/blob/main/src/components/UserImage.jsx) - Displays user image
