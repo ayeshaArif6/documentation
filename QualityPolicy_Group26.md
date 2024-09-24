@@ -12,6 +12,7 @@ Here are the quality policies that the team needs to be mindful about:
 9. Requirement reviews: Reviewing the necassary requirements before making a final submission for any piece of code or software contribution.
 
 
+
 ## Git Workflow
 Our team has decided to fork the repositories that we work on from the main orgainization page on Github. This will reduce our chances of disturbing existing code before we fully understand it. 
 -   The master branch, `main`, will not be pushed to until the end of each sprint.
@@ -27,10 +28,13 @@ Our team has decided to fork the repositories that we work on from the main orga
     -   Task branches will only be merged into their parent user story branch once they are complete.
 -   Each commit will be prepended with `US#-TS#`, along with a short description of the purpose of the commit
 
+
+
 ## Unit tests
 Unit tests are an integral part of our project as the current code base does not have any and they are highly requested by Ian Skelskey, ASU alum and current code maintainer for the Field Day project. We will include both blackbox and whitebox testing in the code.
 
-# Unit Tests Blackbox
+
+### Unit Tests Blackbox
 Each member of the team will take part in the testing process to make the testing more reliable and thorough. Blackbox testing takes place without looking at the code so in context to our project, they would assess:
 - The functionality of each additional feature added to the Field day application.
 - The improvement of existing charactersticks.
@@ -44,11 +48,12 @@ The testing policies would include:
 - Writing a handful of test cases for each section of code. 
 
   
- # Unit Tests Whitebox
+ ### Unit Tests Whitebox
 - Each user story should be tested before merging into dev.
 - Special focus on areas that result in errors after Blackbox testing.
 - At Least an 80% of code coverage or more should be reached after testing.
 - Each team member will contribute in testing.
+
 
 ## Code Review
 - No Direct Commits: No code should be directly committed to the Master or Dev branches without undergoing a detailed Code Review.
@@ -77,10 +82,12 @@ Reviewers must use the following checklist during the Code Review process and in
 7. Feedback and Suggestions: Provide constructive feedback and suggestions for improvement.
 8. Approvals: Confirm that all necessary approvals from other team members are obtained.
 9. Final Validation: Ensure that the entire checklist has been addressed and the PR is ready for merge.
+
     
 ## Scrum
 The team will utilize the scrum framework during each sprint that takes place. Sprints will typically start 10 days to two weeks before each project deliverable. The team members will be responsible for creatiing user stories, tasks and overseeing the progression of the burndown charts.
 The board for Group 26's Field day project can be found [here](https://tree.taiga.io/project/qknowles-project-plan/timeline/).
+
 
 ## Stand Up 
 Each member of the team has to post in the stand-up channel on slack multiple times a week. The following questions have to be taken into consideration
@@ -89,6 +96,7 @@ Each member of the team has to post in the stand-up channel on slack multiple ti
 - What obstacles have you faced so far?
 
 These stand up reports will help the team maintain progress as a unit while also allowing each member to present their shares and contributions. Additionally, any obstacles encountered will be overcome in a speedy manner if multiple members try to come up with a solution as opposed to just one member.
+
 
 ## Communication and Resource sharing
 The team has two main channels realted to the project: the communication channel and the stand up meeting channel. Both of these are on Slack. The live meetings between teammates and with the sponsor are held on Zoom. 
